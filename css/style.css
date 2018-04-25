@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+}
+
+
+canvas {
+    background-image: url(../images/grass-block.png), 
+                        url(../images/grass-block.png), 
+                        url(../images/stone-block.png), 
+                        url(../images/stone-block.png), 
+                        url(../images/stone-block.png),
+                        url(../images/water-block.png);
+    background-repeat: repeat-x;
+    background-position: 0 350px, 0 270px, 0 190px, 0 110px, 0 30px, 0 -50px;
+    margin: 30px auto;
+    display: block;
+    box-shadow: 2px 7px 2px 2px black;
+}
+.content{
+    margin-top: 30px;
+}
+.popup {
+    width: 30%;
+    height: 278px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 23%;
+    left: 36%;
+    display: none;
+}
+
+.popup .fa-check {
+    position: absolute;
+    left: 43%;
+    top: 10%;
+    color: #276d04;
+    font-weight: lighter;
+    border: 3px solid #1b6105;
+    border-radius: 50%;
+}
+.popup h1{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+.popup .u-time {
+   position: absolute;
+    top: 57%;
+    left: 36px;
+}
+
+.popup .movies{
+    bottom: 35%;
+    left: 55%;
+    position: absolute;
+}
+.popup .playagain{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    background-color: #08abb3;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
